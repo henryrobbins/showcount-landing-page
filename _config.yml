@@ -5,6 +5,14 @@ description: >-
 baseurl: ""
 url: "https://showcount.com"
 
+header_pages:
+  - about.md
+  - updates.md
+
+collections:
+  updates:
+    output: true
+
 theme: minima
 plugins:
   - jekyll-feed
