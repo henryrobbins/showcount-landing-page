@@ -16,6 +16,9 @@ layout: default
         >
       {%- endif -%}
     </p>
+    {%- if page.hidden == true -%}
+      <p style="color: red; font-weight: bold;">[WIP]: This is a working draft.</p>
+    {%- endif -%}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">

@@ -251,3 +251,22 @@ table {
     border: 1px solid $grey-color-light;
   }
 }
+
+
+/**
+ * iframe container
+ */
+
+.iframe-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    gap: 10px;
+}
+
+iframe {
+    border: 0px solid #ccc;
+    border-radius: 5px;
+}
