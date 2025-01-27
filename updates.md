@@ -5,4 +5,4 @@ tab: true
 permalink: /updates/
 ---
 
-TODO (hwr): Write Updates page content
+# Updates
